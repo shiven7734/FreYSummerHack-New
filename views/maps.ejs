@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Distances btn two cities App</title>
+    <link href="Content/bootstrap.min.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <script src="https://kit.fontawesome.com/ab2155e76b.js" crossorigin="anonymous"></script>
+<link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+    <link href="App.css" rel="stylesheet" />
+   
+</head>
+<body>
+    <nav class="navbar navbar-light" style="background-color: #e3f2fd;">
+       
+        <nav class="navbar navbar-expand-lg navbar-light bg-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="/">FreySummer</a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                <div class="navbar-nav">
+                  
+                  <a class="nav-link" href="/weather">Weather</a>
+                  <a class="nav-link" href="/maps">Journey</a>
+                  
+                </div>
+              </div>
+            </div>
+          </nav>
+      </nav>
+    
+  
+
+    <div class="j">
+        <div class="container-fluid">
+            <h1>Go on A Journey This Summer.</h1>
+            <h1>Distance Between Two Places.</h1>
+            <p>Calculate your distance between places</p>
+            <form class="form-horizontal">
+                <div class="form-group" class="km">
+                    <label for="from" class="col-xs-2 control-label"></label>
+                    <div class="col-xs-4">
+                        <input type="text" id="from" placeholder="Origin" class="form-control" size="20">
+                    </div>
+               </div>
+               <div class="form-group" class="km">
+                
+                    <label for="to" class="col-xs-2 control-label"><i class="fas fa-map-marker-alt"></i></label>
+                    <div class="col-xs-4">
+                        <input type="text" id="to" placeholder="Destination" class="form-control">
+                    </div>
+                  
+                 </div>
+
+              <div>
+               Driving: <input type="radio" id="driving" value="driving" name="ok">
+               Walking: <input type="radio" id="walking" value="walking" name="ok">
+               Bicycle: <input type="radio" id="Bicycle" value="Bicycle" name="ok">
+               Transit: <input type="radio" id="Transit" value="Transit" name="ok">
+
+
+
+              </div>
+                 
+            </form>
+
+            <div class="col-xs-offset-2 col-xs-10">
+                <button class="gh " onclick="calc()"> Find The Distance</button>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div id="Map">
+
+            </div>
+            <div id="output">
+
+            </div>
+        </div>
+
+    </div>
+
+  
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAEfO6ckRle2oXxO72sxmrD_W8TXKFk6ss&libraries=places"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+    
+    <script src="Scripts/jquery-3.1.1.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

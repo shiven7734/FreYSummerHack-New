@@ -1,0 +1,59 @@
+
+body {
+    color: #161615;
+    font-family: "Poppins", sans-serif;
+    background-color:#FF82B3;
+  }
+  
+  .fa-map-marker-alt,
+  .fa-dot-circle {
+    color: #db4471;
+  }
+  button{
+      background-color: bisque;
+      font-size: 20px;
+      font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  #km{
+     text-align: center;
+  }
+  
+  
+
+  .j {
+    background-color: transparent;
+    margin: 0;
+    padding: 10px;
+  }
+  
+  .j h1 {
+    letter-spacing: 2.5px;
+    font-size: 3.5em;
+  }
+  
+  .j h1,
+  .j p {
+    text-align: center;
+  }
+
+  #gh{
+      font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  }
+  
+  /*map*/
+  #Map {
+    width: 80%;
+    height: 400px;
+    margin: 10px auto;
+  }
+  
+  /*output box*/
+  #output {
+    text-align: center;
+    font-size: 2em;
+    margin: 20px auto;
+  }
+  
+  #mode {
+    color: black;
+  }
