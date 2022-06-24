@@ -61,7 +61,7 @@
              <div id="m">
                 <input type="text" class="search-bar" placeholder="Search Here" id="we">
 
-                <button class="btn btn-primary"  type="button" id="bb" onclick="sendtext1()">Search Weather</button>
+                <button class="btn btn-primary"  type="button" id="bb">Search Weather</button>
                 <div id="aa"> 
    
                 <h2 id="ms">Weather Delhi</h2>
@@ -84,7 +84,7 @@
 
 
 
-         <button onclick="sendtext1()">Send SMS using Twilio</button>
+       
 
 
 
@@ -126,7 +126,8 @@ fetch (
     res.json())
 .then((data)=>
     this.display(data))
-},
+}
+,
 display:function(data) {
   const { name } = data;
     const { icon, description } = data.weather[0];
@@ -149,6 +150,16 @@ display:function(data) {
 s:function(){
   this.fetchw(document.getElementById('we').value);
 
+},
+sendtext1:function(){
+    client.messages.create({
+        body:"Hello from weather",
+        to:'+919650632809',
+        from:'+13392185927'
+    }).then(message=>console.log(message))
+
+      .catch(error=>console.log(error))
+
 }
 
 
@@ -157,18 +168,15 @@ document.getElementById('bb').addEventListener('click',function(){
   w.s();
 
 })
+document.getElementById('bbn').addEventListener('click',function(){
+  w.sendtext1();
+
+})
+
+
 
 w.fetchw('Delhi');
-function sendtext1(){
-    client.messages.create({
-        body:data.weather[0],
-        to:'+919650632809',
-        from:'+13392185927'
-    }).then(message=>console.log(message))
 
-      .catch(error=>console.log(error))
-
-}
 
 
     </script>

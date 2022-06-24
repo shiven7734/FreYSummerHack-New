@@ -15,7 +15,7 @@ app.use(express.urlencoded({extended:false}))
 
 app.use(express.static(__dirname + "/public"));
 app.get('/',(req,res)=>{
-    sendtext();
+   
 
     res.render('main');
 })
@@ -30,13 +30,3 @@ app.listen(port, () => {
     console.log('Serving on port 3000')
 })
 
-function sendtext(){
-    client.messages.create({
-        body:"Hello Welcome to FreySummer",
-        to:'+919650632809',
-        from:'+13392185927'
-    }).then(message=>console.log(message))
-
-      .catch(error=>console.log(error))
-
-}
