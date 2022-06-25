@@ -11,7 +11,15 @@ CSS
 BOOTSTRAP
 API
 JAVASCRIPT
-Heroku(Deployment)
+
+
+![api](https://user-images.githubusercontent.com/89990691/175778210-2d450e37-01b8-4c4c-a29d-3154e08d6b3d.jpg)
+![node](https://user-images.githubusercontent.com/89990691/175778221-8a22588c-9408-4768-9241-b6aef923e074.png)
+![htm;](https://user-images.githubusercontent.com/89990691/175778223-cda0ce1f-6dd5-4bad-928f-6b8ff86ae2eb.jpg)
+![express](https://user-images.githubusercontent.com/89990691/175778232-2237c8a4-a0b4-42d0-84c4-81d58675d2ae.png)
+![weather](https://user-images.githubusercontent.com/89990691/175778240-7ca8c92b-a119-47ca-9fb8-e8a2854e28fd.jpg)
+
+
 
 # File Structure 
 ![dir](https://user-images.githubusercontent.com/89990691/175777671-e53ba3d3-ce92-4b72-b5e0-a010fa4bbb25.png)
