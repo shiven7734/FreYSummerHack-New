@@ -44,7 +44,7 @@ You can directly visit the site by the following URL:
 https://summercheck.herokuapp.com/
 Used Heroku for deployment by directing linking the repo using GitHub
 
-SnapShots of the Website:
+# SnapShots of the Website:
 ![w1](https://user-images.githubusercontent.com/89990691/175777851-9a693d34-df41-4fd6-af51-d9f9a3b39799.png)
 ![w2](https://user-images.githubusercontent.com/89990691/175777856-819a675f-0346-4295-a346-011715fd53ba.png)
 ![w3](https://user-images.githubusercontent.com/89990691/175777865-8a1d5c38-c467-46da-ac81-1c1e58e10ebb.png)
